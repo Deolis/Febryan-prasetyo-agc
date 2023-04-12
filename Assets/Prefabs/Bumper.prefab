@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4312998174457131967}
   - component: {fileID: 4312998174457131966}
   - component: {fileID: 4347959639466185624}
+  - component: {fileID: 1474479361}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4312998174457131961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.98, y: 0.66, z: 2.2}
-  m_LocalScale: {x: 1.2967252, y: 1.2967252, z: 1.2967252}
+  m_LocalScale: {x: 2.1563241, y: 0.8197913, z: 2.1563241}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 38ea3bed3d6d7cc40be457b823948d33, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,3 +114,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bola: {fileID: 0}
   multiplayer: 3
+  color: {r: 0.8490566, g: 0.22027414, b: 0.22027414, a: 0}
+--- !u!95 &1474479361
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4312998174457131961}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 29596515f2402a94491d56d2beb73523, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
